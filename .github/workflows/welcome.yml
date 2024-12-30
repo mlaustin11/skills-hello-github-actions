@@ -1,0 +1,6 @@
+name: Welcome to Maurice's Page
+on:
+  pull_request:
+    types: [opened]
+permissions:
+  pull-requests: write
