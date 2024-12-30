@@ -4,3 +4,7 @@ on:
     types: [opened]
 permissions:
   pull-requests: write
+jobs:
+  build:
+    name: Welcome to Maurice's Page
+    runs-on: ubuntu-latest
